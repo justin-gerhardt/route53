@@ -1,4 +1,4 @@
-module github.com/caddy-dns/route53
+module github.com/justin-gerhardt/route53
 
 go 1.16
 
@@ -19,3 +19,5 @@ require (
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
+
+replace github.com/libdns/route53 => github.com/jjanyan/route53 v0.0.0-20221028200711-2d0a199bf4ee
