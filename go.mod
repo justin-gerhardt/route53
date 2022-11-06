@@ -20,4 +20,4 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 )
 
-replace github.com/libdns/route53 => github.com/jjanyan/route53 v0.0.0-20221028200711-2d0a199bf4ee
+replace github.com/libdns/route53 => github.com/justin-gerhardt/route53-1 v0.0.0-20221106031157-738472781242
